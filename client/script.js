@@ -82,7 +82,7 @@ const handleSubmit = async (e) => {
   // messageDiv.innerHTML = "..."
   loader(messageDiv)
 
-  const response = await fetch('http://localhost:4000', {
+  const response = await fetch('https://shy-tan-bream-belt.cyclic.app', {
       method: 'POST',
       headers: {
           'Content-Type': 'application/json',
